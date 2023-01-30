@@ -24,3 +24,8 @@ def test_registration_user():
     # THEN
     with allure.step('Verify all sent data correctly submitted'):
         practice_form.should_have_submitted()
+
+
+def test_final2():
+    with allure.step('Init Form'):
+        print('\ntest final')
